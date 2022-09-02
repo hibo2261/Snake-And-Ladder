@@ -1,14 +1,15 @@
 package com.Bridgelabz;
 public class SnakeAndLadder {
 
-    public static void main(String[] args)
-    {
-        System.out.println("*********************************");
-        System.out.println("Welcome");
-        System.out.println("To");
-        System.out.println("Snake And Ladder Game");
-        System.out.println("Author = Himanshu Borse");
 
-        System.out.println("*********************************");
+        public static void main(String[] args) {
+            /*
+             * UC1- start from position 0
+             */
+            int position = 0;
+            System.out.println("welcome to snake and ladder game program.");
+            System.out.println("position of player 1 is --> " + position);
+
+        }
+
     }
-}
